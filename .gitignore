@@ -1,6 +1,9 @@
 data/
 *.xlsx
 *.csv
+data/processed/
+*.xlsx
+*.csv
 
 __pycache__/
 *.pyc
