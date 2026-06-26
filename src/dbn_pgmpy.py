@@ -70,10 +70,9 @@ dbn.fit(df_model, estimator='MLE')
 for cpd in dbn.cpds:
     print(cpd)
 
+#throws currently value error (node not present in the model)
 #db_inference = DBNInference(dbn)
 
-
-    
 
 
 

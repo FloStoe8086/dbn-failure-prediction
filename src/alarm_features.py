@@ -37,9 +37,6 @@ for window in df['time_window'].unique():
     #determines machine state 
     result.loc[window, 'machine_state'] = 'Failure' if 'Failure' in window_data['machine_state'].values else 'Running'
 
-#for NaN values fill with 0
-result = result.fillna(0) 
-
 def category_count(x):
     if x == 0:
         return 'None'
